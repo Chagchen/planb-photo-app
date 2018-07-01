@@ -12,6 +12,8 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'jquery-rails'
+gem 'commonjs', '~> 0.2.7'
+gem 'opal', '~> 0.11.0'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
