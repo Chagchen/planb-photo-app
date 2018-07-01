@@ -7,7 +7,9 @@ Rails.application.configure do
   config.cache_classes = false
 
   # Do not eager load code on boot.
-  config.eager_load = false
+  config.eager_load = true
+  config.action_mailer.delivery_method = :test
+  config.action_mailer.default_url_options = { :host => 'http://complete-rubyonrails-course-dryspace.c9users.io'}
 
   # Show full error reports.
   config.consider_all_requests_local = true
