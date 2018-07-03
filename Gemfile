@@ -14,6 +14,7 @@ gem 'devise-bootstrap-views'
 gem 'jquery-rails'
 gem 'commonjs', '~> 0.2.7'
 gem 'opal', '~> 0.11.0'
+gem 'stripe'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
